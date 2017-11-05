@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]) {
   printf("Podaj 3 liczby\n");
   scanf("%d %d %d", &a, &b, &c);
 
-  switch ((a*a)+(c*c)) && ((b*b)+(c*c)) && ((b*b)+(a*a))) {
+  switch (((a*a)+(c*c)) && ((b*b)+(c*c)) && ((b*b)+(a*a))) {
     case (b*b):
     case (a*a):
     case (c*c):printf("Trojka pitagorejska\n");
