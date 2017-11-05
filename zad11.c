@@ -23,23 +23,25 @@ while (a<0) {
   }
   //WZOR3
   for (i = a; i > 0; i--) {
-    for (j = i-j; j > 0; j--) {
+    for (j = a; j > i; j--) {
       printf(" ");
     }
-    for (j = i-a; j > 0; j--) {
+    for (j = i; j > 0; j--) {
       printf("*");
     }
     printf("\n");
   }
-  /*
-
   //WZOR4
-  for (i = 0; i < a; i++) {
-    for (j = 0; j < i+1; j++) {
+
+  for (i = a; i > 0; i--) {
+    for (j = a; j > i; j--) {
+      printf(" ");
+    }
+    for (j = 0; j < 0; j++) {
       printf("*");
     }
     printf("\n");
   }
-*/
+
   return 0;
 }
