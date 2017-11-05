@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]) {
   printf("Podaj 3 liczby\n");
   scanf("%d %d %d", &a, &b, &c);
 
-  if (a>0 && b>0 && c>0){
+  if ((a>0) && (b>0) && (c>0)){
     if ((a*a)+(b*b)==(c*c)) {
       printf("Trojka pitagorejska\n");
     }
